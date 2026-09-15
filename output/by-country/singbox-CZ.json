@@ -6,26 +6,26 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "104.21.34.106",
+      "server": "172.66.47.132",
       "server_port": 443,
-      "uuid": "d8c14c5c-a80a-4f6f-a5fb-52071849c443",
+      "uuid": "b2f2f9f2-1864-48ea-839b-22815faff1f1",
       "tls": {
         "enabled": true,
-        "server_name": "CgxGqchEiAMnA-jkS01FiDlsnqOjwF-S.ALIAmA.WOrKErS.DeV",
+        "server_name": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev",
         "insecure": false,
         "alpn": [
           "http/1.1"
         ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiZTFWRGJFS0NUd2F2NkRmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ",
+        "path": "/pRXE5ot0RZaQSr7B",
         "headers": {
-          "Host": "cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev"
+          "Host": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev"
         }
       }
     },
