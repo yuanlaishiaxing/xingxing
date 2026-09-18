@@ -5,20 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
-  server: 104.24.30.89
-  port: 443
+  server: 185.135.86.175
+  port: 9082
   udp: true
-  type: vless
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
+  type: ss
+  cipher: aes-256-cfb
+  password: 45xgMgm386pjWjTx
 proxy-groups:
 - name: PROXIES
   type: select
