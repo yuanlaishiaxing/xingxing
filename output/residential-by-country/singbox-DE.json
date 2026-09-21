@@ -4,15 +4,18 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "103.115.18.54",
+      "type": "trojan",
+      "tag": "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe",
+      "server": "151.101.56.7",
       "server_port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "password": "MiTIVPN",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
+        "server_name": "ssl.fastly.com",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -20,9 +23,8 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/episode/files?ed=2560",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "Host": "mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net"
         }
       }
     },
@@ -31,14 +33,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
+        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
+        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
