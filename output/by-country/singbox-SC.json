@@ -4,23 +4,27 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-      "server": "193.148.59.178",
+      "type": "trojan",
+      "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
+      "server": "151.101.56.7",
       "server_port": 443,
-      "uuid": "20d7c485-5d24-49b5-a5cc-bb7a7daf9908",
-      "flow": "xtls-rprx-vision",
+      "password": "MITIVpN",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "ssl.fastly.com",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-GMpCber8qtrKzJbwvpLcwlIhOy-5zS66u_x9lLvIjE",
-          "short_id": "e3daad69"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net"
         }
       }
     },
@@ -29,14 +33,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
