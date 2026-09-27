@@ -6,37 +6,6 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "server": "63.141.128.22",
-      "server_port": 443,
-      "uuid": "b8b01773-36b1-4b49-9bd0-6249f52345b4",
-      "tls": {
-        "enabled": true,
-        "server_name": "MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-        "headers": {
-          "Host": "MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "server": "91.240.86.70",
-      "server_port": 22443,
-      "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
-      "tls": {
-        "enabled": true,
-        "server_name": "itsallproxy.quattro-tech.ru",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "server": "fbsv6.guardora.pro",
       "server_port": 443,
       "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
@@ -59,7 +28,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "server": "45.12.75.242",
       "server_port": 26424,
       "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
@@ -78,14 +47,36 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "server": "185.229.9.160",
+      "server_port": 443,
+      "uuid": "9e4f675b-d6bf-42d1-be55-389f622783af",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4Y0QLEasqtkWqfbrRedWqrZSPTnB14FDfI9q1v5SsHs",
+          "short_id": "0afbd1d3"
+        }
+      },
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ]
     },
     {
@@ -94,8 +85,7 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
