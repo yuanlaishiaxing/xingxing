@@ -5,22 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇬🇹 GT 01 - xiaohe",
-      "server": "185.47.254.251",
+      "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
+      "server": "skk.moe",
       "server_port": 443,
-      "uuid": "878fb7f7-fc65-465e-a352-17c7216c6f3d",
-      "flow": "xtls-rprx-vision",
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "tls": {
         "enabled": true,
-        "server_name": "gateway.icloud.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "6-_ZidygR8PRt4gtHlGCAW-PPmjEIm7Wn7MZqJU1z1Q",
-          "short_id": "6c059ecfddf9b179"
+        "server_name": "77yku.ngw0.4j6.hh.vavava.kdns.fr",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "77yku.ngw0.4j6.hh.vavava.kdns.fr"
         }
       }
     },
@@ -29,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇹 GT 01 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇹 GT 01 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
