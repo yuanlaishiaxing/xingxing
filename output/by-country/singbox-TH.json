@@ -5,24 +5,14 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "8.47.69.0",
+      "tag": "🇹🇭 泰国 (Thailand) 01 - xiaohe",
+      "server": "th1.zestapp778.com",
       "server_port": 443,
-      "password": "humanity",
+      "password": "Trojan@82164024",
       "tls": {
         "enabled": true,
-        "server_name": "www.pleadcourt.org",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.pleadcourt.org"
-        }
+        "server_name": "th1.zestapp778.com",
+        "insecure": true
       }
     },
     {
@@ -30,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
