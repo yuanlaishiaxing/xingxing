@@ -5,37 +5,86 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
+  server: 172.64.229.170
+  port: 8880
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+  server: 162.159.38.127
+  port: 2052
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+  server: 172.64.53.55
+  port: 2082
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  server: fd16b694-tmm5c0-unh4sc-xm0q.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+  sni: fd16b694-tmm5c0-unh4sc-xm0q.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
+  server: 202.146.222.174
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https%3a%2f%2ft.me%2fwangcai2
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
+  server: f210bf34-tmm5c0-unh4sc-xm0q.nw4.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+  sni: f210bf34-tmm5c0-unh4sc-xm0q.nw4.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 202.146.222.29
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
+  server: 202.146.222.89
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vk.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
   server: telegram.khp25.com
   port: 1080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: pno0e2keji2gsfea
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2üá
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%253a%252f%252ft.me%252fclashv8%25f0%259f%2587%25a8%25f0%259f%2587%25b3
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
   server: 195.58.144.56
   port: 11907
   udp: true
@@ -45,7 +94,7 @@ proxies:
   servername: 195.58.144.56
   skip-cert-verify: false
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
   server: mz.hkychina.com
   port: 8443
   udp: true
@@ -53,23 +102,7 @@ proxies:
   password: HysTeria2026!Proxy
   sni: mz.hkychina.com
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
-  server: yg1.ygkkk.dpdns.org
-  port: 443
-  udp: true
-  type: vmess
-  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: jmp1.907737.xyz
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
-    headers:
-      Host: jmp1.907737.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - xiaohe
   server: 194.99.79.26
   port: 443
   udp: true
@@ -83,22 +116,7 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
-  server: telegramx.khp25.com
-  port: 1080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: m5nsedvdczx6x06e
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
-  server: 2.27.109.179
-  port: 45464
-  udp: true
-  type: trojan
-  password: XuMweB2PWs
-  sni: 2.27.109.179.sslip.io
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
   server: 47.240.80.220
   port: 2052
   udp: true
@@ -122,6 +140,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 12 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -138,5 +158,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 12 - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
 rules:
 - MATCH,PROXIES
